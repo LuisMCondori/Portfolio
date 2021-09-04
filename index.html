@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Luis Condori</title>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>    
+    <!--Custom-->
+    <link rel="preload" href="/CSS/estilos.css">
+    <link rel="stylesheet" href="/CSS/estilos.css">
+
+    <!-- Librerias -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+</head>
+<body>
+    <!-------------------
+            NAVEGADOR
+    --------------------->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <nav class="navbar">
+        <div class="navbar__contenido width">
+            <div class="logo">
+                <a href="#">Portafo<span>lio.</span></a>
+            </div>            
+            <ul class="menu">
+                <li><a href="#principal">Home</a></li>
+                <li><a href="#secundario">Sobre mi</a></li>                    
+                <li><a href="#portafolio">Proyectos</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>            
+        </div>
+    </nav>
+
+    <!-------------------
+            PRINCIPAL
+    --------------------->
+    <section class="principal" id="principal">
+        <div class="contenedor__principal width">       
+            <div class="contenedor__titulo">
+                <div class="text-1">Hola, mi nombre es</div>
+                <div class="text-2">Luis Miguel</div>
+                <div class="text-3">y soy <span class="typing"></span></div>            
+            </div>
+            <div class="contenedor__imagen">
+                <img src="/IMG/ingeniero.jpg" alt="">
+            </div>                               
+        </div>
+    </section>    
+    
+    <!-------------------
+        SECUNDARIO
+    --------------------->
+    <section class="secundario" id="secundario">
+        <div class="about">
+            <h2 class="titulo">Sobre mí</h2>
+            <div class="contenedor__secundario width">  
+                <div class="contenedor__imagen-secundario">
+                    <img src="/IMG/sobre_mi.jpg" alt="">
+                </div> 
+                   
+                <div class="contenedor__about">
+                    <div class="text">
+                        <p>Hola, mi nombre es Luis Miguel Condori Lopez, actualmente trabajo como desarrollador Frontend en Softronic Peru. Me considero una persona muy creativa y autodidacta. En 2018 me gradue como bachiller en Ingenieria de Sistemas. A la fecha tengo conocimientos amplios en HTML5, CSS3 y JavaScript junto con librerías como React JS, maquetación con CSS Grid Layoud y Flexbox, en la parte del backend tengo conocimientos sobre PHP y el frameworks Laravel.</p>
+                    </div>                     
+                    <a href="#" class="btn_CV">Descargar CV</a>                  
+                </div>   
+                                          
+            </div>
+        </div>   
+    </section>
+
+    <!----------------
+        PORTAFOLIO
+    ----------------->
+    <div class="contenedor__portafolio" id="portafolio">
+        <div class="portafolio">
+            <h2 class="titulo">Proyectos</h2>
+            <div class="main width">
+                <div class="contenedor__cards grid ">
+
+                    <div class="card">
+                        <div class="card__image-container">
+                            <img src="/IMG/01.JPG" alt="">
+                        </div>
+                        <div class="card__titulo">
+                            <h3>Blog de Cafe</h3>
+                        </div>
+                        <div class="card__soc">
+                            <div class="card-soc__list">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="btn_total">                                
+                                <a class="btn_ver" target="_blank" href="https://lmblogdecafe.netlify.app/">Demo</a>                                
+                                <a class="btn_ver" target="_blank" href="#">Repositorio</a>                                
+                            </div>                           
+                        </div>
+                    </div> 
+                    
+                    <div class="card">
+                        <div class="card__image-container">
+                            <img src="/IMG/02.JPG" alt="">
+                        </div>
+                        <div class="card__titulo">
+                            <h3>Tienda Virtual</h3>
+                        </div>
+                        <div class="card__soc card-soc">
+                            <div class="card-soc__list">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="btn_total">
+                                <a class="btn_ver" target="_blank" href="#">Demo</a>                             
+                                <a class="btn_ver" target="_blank" href="#">Repositorio</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__image-container">
+                            <img src="/IMG/03.JPG" alt="">
+                        </div>
+                        <div class="card__titulo">
+                            <h3>Bienes Raices</h3>
+                        </div>
+                        <div class="card__soc card-soc">
+                            <div class="card-soc__list">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="btn_total">
+                                <a class="btn_ver" target="_blank" href="#">Demo</a>                                
+                                <a class="btn_ver" target="_blank" href="#">Repositorio</a>                            
+                            </div>
+                        </div>
+                    </div>
+                    
+            
+                </div><!--contenedor__card-->
+                <div class="btn_mas">
+                    <a href="#">Mas Proyectos</a>
+                </div>
+            </div><!--main-->
+        </div><!--portafolio-->
+    </div><!--contenedor__portafolio-->
+
+    <!-------------------
+            FOOTER
+    --------------------->
+    <footer>
+        <div class="footer_contenido">
+            <p>© 2021 Desarrollado por Luis M. Condori </p>
+        </div>
+        <div class="footer_iconos">
+            <ul>
+                <li><a class="linkedin" href="https://www.linkedin.com/in/luiscondori23" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a class="github" href="https://github.com/LuisMCondori" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a class="gmail" href="#" target="_blank"><i class="far fa-envelope"></i></a></li>
+            </ul>                       
+        </div>        
+    </footer>
+
+    <script src="/JS/app.js"></script>
+
+</body>
+</html>
